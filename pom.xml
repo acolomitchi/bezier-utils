@@ -9,7 +9,7 @@
 
   <name>bezier-utils</name>
   <description>Utility algos in Java for quad and cubic Bezier curves</description>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/acolomitchi/bezier-utils</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
