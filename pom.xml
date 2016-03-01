@@ -10,6 +10,27 @@
   <name>bezier-utils</name>
   <description>Utility algos in Java for quad and cubic Bezier curves</description>
   <url>https://github.com/acolomitchi/bezier-utils</url>
+  
+  <licenses>
+    <license>
+      <name>MIT style</name>
+      <url>https://github.com/acolomitchi/bezier-utils/blob/master/LICENSE</url>
+      <comments>Also included in the root of the binary and source jars, in the LICENCE file</comments>
+    </license>
+  </licenses>
+  
+  <developers>
+    <developer>
+      <name>Adrian Colomitchi</name>
+      <email>acolomitchi@gmail.com</email>
+      <organization>caffeineowl.com</organization>
+      <organizationUrl>http://www.caffeineowl.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+  	<url>https://github.com/acolomitchi/bezier-utils.git</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,12 +45,16 @@
     </dependency>
   </dependencies>
   
-  <scm>
-  	<url>https://github.com/acolomitchi/bezier-utils.git</url>
-  	<developerConnection>acolomitchi</developerConnection>
-  </scm>
   
   <build>
+    <resources>
+      <resource>
+        <directory>.</directory>
+        <includes>
+          <include>LICENSE</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
 	    <plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
@@ -43,7 +68,6 @@
 	        </execution>
 	      </executions>
 	    </plugin>
-	    
 	    <plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-javadoc-plugin</artifactId>
