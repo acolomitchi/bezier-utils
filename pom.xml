@@ -4,7 +4,7 @@
 
   <groupId>com.caffeineowl</groupId>
   <artifactId>bezier-utils</artifactId>
-  <version>0.1.0-RELEASE</version>
+  <version>1.0.0-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>bezier-utils</name>
