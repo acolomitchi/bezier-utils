@@ -2,4 +2,5 @@
 /classes
 /javadoc-bundle-options
 /maven-archiver
+/nexus-staging
 /surefire
